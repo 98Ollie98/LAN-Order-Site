@@ -1,0 +1,70 @@
+body{
+    background-color: #ffffe8;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.placeOrderButtonDIV{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.placeOrderButton{
+    height: 15vh;
+    width: 90%;
+    margin: 3vh;
+    font-size: 5vh;
+    font-weight: normal;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    background-color: #2e2e2e;
+}
+
+
+.menuParent{
+    display: flex;
+    flex-direction: column;
+}
+.menuItemEven{
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    width: 100%;
+    font-size: 3vh;
+    font-weight: lighter;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgba(184, 184, 184, 0.548);
+}
+.menuItemOdd{
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    width: 100%;
+    font-size: 3vh;
+    font-weight: lighter;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgba(230, 230, 230, 0);
+}
+.addToOrderButton{
+    color: rgb(255, 255, 255);
+    background-color: #2e2e2e;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    height: 13vh;
+    width: 25%;
+    margin: 1vh;
+    margin-left: 70%;
+    align-self: end;
+
+}
+.addToOrderButton:hover{
+    background-color: green;
+}
+
